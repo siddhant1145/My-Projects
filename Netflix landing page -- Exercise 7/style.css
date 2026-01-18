@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+}
+
+.LOGO {
+    width: 9.25rem;
+    height: 2.5rem;
+    color: rgb(229, 9, 20);
+    fill: currentColor;
+    display: block;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.lang-btn {
+    border: 1.5px solid grey;
+    border-radius: 5px;
+    padding: 8px;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+
+.btn2 {
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    padding: 9px;
+    margin: 0 20px;
+    font-family: sans-serif;
+
+}
+
+.left {
+    display: flex;
+}
+
+header {
+    height: 90vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(https://assets.nflxext.com/ffe/siteui/vlv3/9ddb442a-aca7-4d85-9cd1-dbed62f18f26/web/IN-en-20251222-TRIFECTA-perspective_a882efaa-75c8-4143-9dc1-4f9932a791ac_large.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+h1{
+    color: white;
+    font-family: Inter, Helvetica, Arial, Lucida, sans-serif;
+    padding-top: 100px;
+    font-weight: 800;
+    font-size: 50px;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 0 700px; */
+}
+h1{
+    text-align: center;
+    width : 680px;
+}
+p{
+    color : white;
+    text-align: center;
+    font-family: Inter, Helvetica, Arial, Lucida, sans-serif;
+    padding-top: 14px;
+    font-size: 18px;
+}
+.Input_Email{
+    /* display: flex; */
+     border: 0.5px solid white;
+    justify-content: center;
+    align-items: center;
+    width: 620px;
+    background: #191817de;
+    height: 55px;
+    border-radius: 10px;
+    color : white;
+    font-size: 24px
+}
+.con_in{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 7px;
+}
+.label{
+    text-align: left;
+    padding: 10px;
+    margin: 7px;
+}
