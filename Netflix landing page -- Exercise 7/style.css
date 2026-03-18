@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+}
+
+.LOGO {
+    width: 9.25rem;
+    height: 2.5rem;
+    color: rgb(229, 9, 20);
+    fill: currentColor;
+    display: block;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.lang-btn {
+    border: 1.5px solid grey;
+    border-radius: 5px;
+    padding: 8px;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+
+.btn2 {
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    padding: 9px;
+    margin: 0 20px;
+    font-family: sans-serif;
+
+}
+
+.left {
+    display: flex;
+}
+
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(assits/background.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+h2 {
+    color: white;
+}
+h3{
+    color: white;
+}
+h1 {
+    color: white;
+    font-family: Inter, Helvetica, Arial, Lucida, sans-serif;
+    padding-top: 100px;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 0 700px; */
+}
+
+h1 {
+    text-align: center;
+    width: 680px;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-family: Inter, Helvetica, Arial, Lucida, sans-serif;
+    padding-top: 14px;
+    font-size: 18px;
+}
+
+.Input_Email {
+    /* display: flex; */
+    border: 0.5px solid white;
+    justify-content: center;
+    align-items: center;
+    width: 620px;
+    background: #191817de;
+    height: 55px;
+    border-radius: 5px;
+    color: white;
+    font-size: 24px
+}
+
+.con_in {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 7px;
+}
+
+.label {
+    text-align: left;
+    padding: 10px;
+    margin: 7px;
+}
+
+.Input_Email {
+    padding: 10px;
+    width: 55%;
+}
+
+.bold-text {
+    font-weight: 700;
+}
+
+main {
+    height: 400px;
+    padding: 20px;
+    font-family: Inter, Helvetica, Arial, Lucida, sans-serif;
+    color: wheat;
+}
+
+.cards {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+.card {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 150px;
+    height: 200px;
+}
+
+.c-1 {
+    background-image: url(https://occ-0-2484-3646.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABYWfklg5D5btQoekHBjGHSFXDW_EezXrT97RnSaEwirkVnCt91QaQlcPWCxtfkSrW04hOcHguRrAMgyKTJzs2_PKkFkbs60DHC4.webp?r=05f);
+
+    border: none;
+    background-size: cover;
+}
+.c-1:hover {
+    transform: scale(1.05);
+    transition: transform 1s ease 1ms;
+}
+
+.c-2 {
+    background-image: url(https://occ-0-2484-3646.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABcwMiAXNKvtzgN1Kx06ht1pT-yTXiVSQy0BKogrxRHkSiGZlRtWZbq2ROt1kkWqfM2PWVvgDNFMw73KTzVFP0dnMIY1MsQEVJIeBdS5U2PG52vbiBsX9ajBuOg6ZrWR1H_X-.webp?r=df5);
+
+
+
+    border: none;
+    background-size: cover;
+}
+.c-2:hover {
+    transform: scale(1.05);
+    transition: transform 1s ease 1ms;
+}
+
+.c-3 {
+    background-image: url(https://occ-0-2484-3646.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABftpjKnHqJX4EPMORPQ4RHHTlTnPF4gpvjGNF8a3-4T34kvHLh8SPWCYBezUdm6UiTi7uWETyhWBOOjeVOg_NRArIg8xPwcIUumXxCc7DdDAzJkqk8TkTSWEYSYkOn0z36s9.webp?r=367);
+    border: none;
+    background-size: cover;
+}
+.c-3:hover {
+    transform: scale(1.05);
+    transition: transform 1s ease 1ms;
+}
+
+.child{
+    padding: 10px;
+    margin: 10px;
+    background-color: #2d2d2d;
+    height: 55px;
+}
+.Child_heding{
+    padding: 10px;
+    font-weight: 300;
+}
+
+.section-two{
+
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+    .cards{
+         flex-direction: column;
+         
+    }
+    .section-one{
+        display: flex;
+        justify-content: center;
+    }
+    .first h1{
+        font-weight: 600;
+        font-size: 34px;
+    }
+}
+
+@media screen and (min-width: 720px){
+    .card{
+        width: 192px;
+        height: 270px;
+    }
+
+    .child{
+        width: 900px;
+        height: 80px;
+    }
+
+    .Child_heding{
+       font-size: 26px;
+    }
+
+    .section-one h2{
+        padding-left: 140px;
+    }
+}
